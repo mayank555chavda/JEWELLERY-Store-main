@@ -1,0 +1,700 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/hero-01.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-position: top right;
+    background-color: #faf7f5;
+    z-index: 0;
+}
+header{
+    box-shadow: 1px 1px 10px black;
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    transition: all 0.5s linear;
+    z-index: 1;
+}
+header nav{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.main{
+    display: flex;
+    height: 90px;
+    justify-content: flex-start;
+    width: 33%;
+}
+li{
+    list-style-type: none;
+    margin-top: 35px;
+    width: 60px;
+}
+#sidebar{
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+}
+li a:hover{
+    color: #e1a97f;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.logoname{
+    width: 50%;
+    height: 100%;
+}
+.navright{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.fa-user,.fa-cart-shopping,.fa-info{
+    font-size: 1rem;
+    color: #db9662;
+    cursor: pointer;
+    width: 50px;
+}
+.login{
+    color:black;
+    margin-left: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.fa-bars{
+    display: none;
+}
+.mainul{
+    display: none;
+}
+.herosectionconatiner{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.heroleft{
+    font-size: 5.33rem;
+    margin-left: auto;
+    margin-top: 200px;
+    line-height: 1.4em;
+    font-style: oblique;
+}
+.because{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    font-style: oblique;
+}
+.explore{
+    font-size: .8rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 20px 20px;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.explore:hover,.readmore:hover{
+    background-color: black;
+    color: white;
+}
+.bgco{
+    background-color: #faf7f5;
+    height: auto;
+}
+.name{
+    margin-top: 100px;
+    font-size: 2.5rem;
+    font-weight: lighter;
+    text-align: center;
+    padding-top: 50px;
+}
+.viewall{
+    text-align: center;
+    color: #1d1d1c;
+    padding: 20px 0px;
+    font-size: 0.9rem;
+    text-decoration: none;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.jewe{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.earrings{
+    width: 33%;
+    background-color: white;
+    cursor: pointer;
+}
+.errname,.product{
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-size: 0.9rem;
+}
+.earrone{
+    width: 100%;
+}
+.product{
+    color: lightgray;
+}
+.errmain{
+    margin-bottom: 20px;
+}
+.textpmain{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textp{
+    padding: 5px 0px;
+    font-size: 2.5rem;
+    font-style: italic;
+    text-align: center;
+    margin-top: 100px;
+}
+.textpm{
+    margin-top: 50px;
+    width: 90%;
+    text-align: center;
+}
+.readconsitanter{
+    display: flex;
+    justify-content: center;
+}
+.readmore{
+    font-size: .6rem;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.newarrival{
+    text-align: center;
+    font-size: 2rem;
+}
+.arrivalconatiner{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+.productnine{
+    width: 33%;
+}
+.productname{
+    opacity: 0.5;
+    padding: 5px 0px;
+}
+.productinfo{
+    display: flex;
+    max-width: 89%;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.price1,.price2{
+    margin-right: 240px;
+}
+.exquisite{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    background-image: url("images/bg-01.jpg");
+    background-position: right;
+    background-repeat: no-repeat;
+    margin-top: 120px;
+}
+.leftbox{
+    margin-top: 120px;
+    width: 60%;
+    height: 400px;
+    background-color: #ffffff;
+}
+.imagebox{
+    display: flex;
+    justify-content: center;
+}
+.kadda{
+    position: relative;
+    bottom: 50px;
+}
+.ka2{
+    text-align: center;
+    font-weight: 400;
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.textk{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.discover{
+    text-align: center;
+    font-size: 1.3rem;
+    font-weight: lighter;
+    font-style: oblique;
+}
+.dsce{
+    display: flex;
+    justify-content: center;
+}
+.dicoverbutton{
+    border: 1px solid black;
+    padding: 10px 10px;
+    font-weight: lighter;
+    font-size: .8rem;
+    text-align: center;
+    margin-top: 50px;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.dicoverbutton:hover{
+    background-color: black;
+    color: white;
+}
+.testimonialsconatiner{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.test1{
+    margin-top: 120px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+.test2{
+    margin-top: 60px;
+    text-align: center;
+    font-size: 1.7rem;
+    font-style: oblique;
+}
+.imageconatiner{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.imagenine{
+    display: flex;
+    justify-content: space-between;
+}
+.oneimage{
+    margin-top: 20px;
+    width: 100%;
+}
+.productnine{
+    width: 96%;
+}
+.p1{
+    opacity: 0.5;
+    padding: 5px 0px;
+}
+.metalcontainer{
+    margin-top: 120px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.bgc005{
+    width: 100%;
+}
+.metalinfo{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.metalinfo1{
+    font-size: 1.4rem;
+    font-style: oblique;
+    font-weight: 200;
+}
+.solidgold{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 400;
+}
+.solidinfo{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: lighter;
+}
+.bg005{
+    width: 100%;
+    height: auto;
+}
+.handcrafted{
+    margin-top: 120px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.bg01{
+    width: 100%;
+}
+.handyright{
+    margin-top: 100px;
+    background-color: #ffffff;
+    width: 49%;
+    height: 400px;
+}
+.heightmain{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.highqu{
+    font-size: 2rem;
+    text-align: center;
+    font-weight: bolder;
+    padding: 50px 0px;
+    font-style: oblique;
+}
+.colletion{
+    font-size: 1.2rem;
+    text-align: center;
+    font-weight: bold;
+}
+.ring3,.buttonflex{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.exploreq{
+    font-size: .8rem;
+    margin-bottom: 100px;
+    padding: 20px 30px;
+    background-color: white;
+    border: 1px solid black;
+    transition: all 0.5s linear;
+    cursor: pointer;
+}
+.exploreq:hover{
+    background-color: black;
+    color: white;
+}
+.discountconatiner{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.discountname{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 400;
+    font-style: oblique;
+    margin-top: 60px;
+}
+.saleflex{
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.footercon{
+    padding-top: 120px;
+    background-color: #faf7f5;
+}
+.footermain{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logocon{
+    display: flex;
+    justify-content: center;
+}
+.logof{
+    height: 90px;
+}
+.ulconaiter{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ftxt{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.socialf{
+    margin-top: 50px;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube{
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.1rem;
+}
+ @media screen and  (max-width:768px){
+header{
+    position: static;
+}
+.mainul{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    max-width: 100%;
+    height: auto;
+}
+.logoname{
+    width: 100%;
+    height: 100%;
+}
+.fa-bars{
+    display: block;
+    width: 33%;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #dd9d6c;
+    transition: all 2s linear;
+}
+.navright{
+    width: 33%;    
+}
+.main,.navright{
+    display: none;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: #db9662;
+    border: 1px solid black;
+    position: absolute;
+    animation: name 0.5s ease forwards;
+}
+@keyframes name {
+    from{
+        transform: translate(-100%);
+    }
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 8px 0px;
+}
+body{
+    background-position: top;
+    height: auto;
+    width: 100%;
+}
+.heroleft{
+    font-size: 2.4rem;
+}
+.because{
+    font-size: 1rem;
+}
+.explore{
+    font-size: .8rem;
+}
+.name,.newarrival{
+    font-size: 2.4rem;
+}
+.jewe{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+.viewall{
+    font-size: 1rem;
+}
+.earrings{
+    width: 100%;
+    height: auto;
+}
+.textpmain{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.textp,.name{
+    font-size: 1.4rem;
+}
+.textpm{
+    font-size: .9.5rem;
+    text-align: center;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.readmore{
+    font-size: .9rem;
+}
+.arrivalconatine{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.imagenine{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: space-around;
+}
+.productnine{
+    width: 100%;
+}
+.leftbox{
+    width: 60%;
+    margin-bottom: 100px;
+}
+.kadda{
+    width: 100px;
+    height: 100px;
+}
+.textk{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+}
+.ka2{
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+.discover{
+    font-size: 1rem;
+    font-style: oblique;
+}
+.dicoverbutton{
+    font-size: .7rem;
+    font-weight: lighter;
+}
+.testimonialsconatiner{
+    max-width: 95%;
+    margin-left: auto;
+    margin-left: auto;
+}
+.test1{
+    opacity: 0.6;
+    font-size: 1.2rem;
+}
+.test2{
+    font-size: 1.2rem;
+    font-weight: lighter;
+}
+.oneimage{
+    width: 100%;
+}
+.p1{
+    font-size: 1rem;
+}
+.s1,.v2,.pr1{
+    font-size: .9rem;
+    padding: 5px 0px;
+}
+.metalcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.heightmain{
+    max-width: 99%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg005{
+    width: 100%;
+}
+.solidgold{
+    font-size: 1.2rem;
+    padding: 10px 0px;
+}
+.solidinfo{
+    font-size: .9rem;
+    padding: 10px 0px;
+    font-weight: lighter;
+}
+.handcrafted{
+    display: flex;
+    flex-direction: column;
+}
+.handyleft,.handyright{
+    width: 100%;
+}
+.highqu{
+    font-size: 1.3rem;
+}
+.colletion{
+    font-size: 1rem;
+    font-weight: lighter;
+}
+.exploreq{
+    padding: 10px 20px;
+    font-weight: 300;
+    letter-spacing: 2px;
+}
+.discountname{
+    font-size: 1.8rem;
+}
+.logof{
+    height: 70px;
+}
+.ulconaiter{
+    display: flex;
+    flex-direction: column;
+}
+.ftxt{
+    text-align: center;
+    padding: 10px 0px;
+}
+.socialf{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+}

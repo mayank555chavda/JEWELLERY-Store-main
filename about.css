@@ -1,0 +1,436 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url("images/bg-03.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.5s linear;
+    z-index: 1;
+}
+header nav{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.main{
+    display: flex;
+    height: 90px;
+    justify-content: flex-start;
+    width: 33%;
+}
+li{
+    list-style-type: none;
+    margin-top: 35px;
+    width: 60px;
+}
+#sidebar{
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+}
+li a:hover{
+    color: #e1a97f;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.logoname{
+    width: 50%;
+    height: 100%;
+}
+.navright{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.fa-user,.fa-cart-shopping,.fa-info{
+    font-size: 1rem;
+    color: #db9662;
+    cursor: pointer;
+    width: 50px;
+}
+.login{
+    color:black;
+    margin-left: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.fa-bars{
+    display: none;
+}
+.mainul{
+    display: none;
+}
+.mainco{
+    background-color: #faf7f5;
+    height: auto;
+}
+.mainconainer{
+    padding-top: 200px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.threeringcont{
+    display: flex;
+    justify-content: center;
+}
+.hady{
+    font-size: 2.3rem;
+    text-align: center;
+    font-style: oblique;
+    margin-top: 60px;
+}
+.lorem{
+    font-size: 1.2rem;
+    font-weight: lighter;
+    margin-top: 60px;
+    text-align: center;
+    font-style: normal;
+    color: #a19f9e;
+    padding-bottom: 100px;
+}
+.mainco2{
+    margin-top: 500px;
+    background-color: #faf7f5;
+}
+.maincontainer2{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.mainleftcont{
+    font-size: 3rem;
+    font-style: oblique;
+    padding-top: 100px;
+}
+.right{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.leftcont{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bg04{
+    width: 100%;
+    height: 675px;
+}
+.fair{
+    font-size: 1rem;
+    color: #19110b;
+    font-style: italic;
+    margin-top: 50px;
+}
+.fairinfo{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    color: #8c8a89;
+}
+.metalcontainer{
+    margin-top: 90px;
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.bgc005{
+    width: 33%;
+}
+.metalinfo{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.metalinfo1{
+    font-size: 1.4rem;
+    font-style: oblique;
+    font-weight: 200;
+}
+.solidgold{
+    text-align: center;
+    font-size: 1.5rem;
+    font-style: oblique;
+    font-weight: 400;
+}
+.solidinfo{
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 12px;
+    font-weight: lighter;
+}
+.heightmain{
+    width: 33%;
+}
+.preciousmetal{
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: 100px;
+}
+.bg5{
+    width: 100%;
+    height: auto;
+}
+.background{
+    background-image: url("images/bg-08.jpg");
+    background-attachment: fixed;
+}
+.main3{
+    background-color: #faf7f5;
+    height: auto;
+}
+.mainconat{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+}
+.per{
+    display: flex;
+    justify-content: center;
+}
+.makingcharges{
+    text-align: center;
+    font-size: 4.2rem;
+    font-style: oblique;
+    padding-top: 100px;
+}
+.m1{
+    font-size: 2rem;
+    text-align: center;
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    color: #d0cecc;
+    font-style: italic;
+}
+.visit{
+    text-align: center;
+    padding: 10px 20px;
+    font-size: .8rem;
+    font-style: italic;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.5s linear;
+}
+.visit:hover{
+    background-color: black;
+    color: white;
+}
+.vistcont{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.footercon{
+    padding-top: 120px;
+    background-color: #faf7f5;
+}
+.footermain{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logocon{
+    display: flex;
+    justify-content: center;
+}
+.logof{
+    height: 90px;
+}
+.ulconaiter{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ftxt{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.socialf{
+    margin-top: 50px;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube{
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.1rem;
+}
+@media screen and  (max-width:768px){
+    header{
+        position: static;
+        margin-bottom: 10px;
+    }
+    .mainul{
+        display: flex;
+        width: 100%;
+    }
+    .logo{
+        width: 33%;
+    }
+    .logoname{
+        width: 100%;
+        height: 100%;
+    }
+    .fa-bars{
+        display: block;
+        width: 33%;
+        margin-top: 20px;
+        font-size: 1.4rem;
+        color: #dd9d6c;
+        transition: all 2s linear;
+    }
+    .navright{
+        width: 33%;    
+    }
+    .main,.navright{
+        display: none;
+    }
+    #sidebar{
+        display: flex;
+        flex-direction: column;
+        display: none;
+        width: 100%;
+        height: 300px;
+        background-color: #db9662;
+        border: 1px solid black;
+        position: absolute;
+        animation: name 0.5s ease forwards;
+    }
+    @keyframes name {
+        from{
+            transform: translatex(-100%);
+        }
+    }
+    li{
+        list-style-type: none;
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    li a{
+        text-decoration: none;
+        color: black;
+        font-size: 1rem;
+        padding: 8px 0px;
+    }
+    .mainconainer{
+        max-width: 95%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .hady{
+        font-size: 1.8rem;
+    }
+    .lorem{
+        font-size: 1rem;
+    }
+    .maincontainer2{
+        display: flex;
+        flex-direction: column;
+    }
+    .mainleftcont{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .fair{
+        font-size: .9rem;
+    }
+    .fairinfo{
+        font-size: 1.2rem;
+        max-width: 90%;
+        margin-right: auto;
+    }
+    .bg04{
+        width: 100%;
+        height: auto;
+        margin-top: 50px;
+    }
+    .metalcontainer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .heightmain{
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .bg005{
+        width: 100%;
+    }
+    .solidgold{
+        font-size: 1.2rem;
+        padding: 10px 0px;
+    }
+    .solidinfo{
+        font-size: .9rem;
+        padding: 10px 0px;
+        font-weight: lighter;
+    }
+    .makingcharges{
+        font-size: 2.2rem;
+    }
+    .m1{
+        font-size: 1.1rem;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .logof{
+        height: 70px;
+    }
+    .ulconaiter{
+        display: flex;
+        flex-direction: column;
+    }
+    .ftxt{
+        text-align: center;
+        padding: 10px 0px;
+    }
+    .socialf{
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    }

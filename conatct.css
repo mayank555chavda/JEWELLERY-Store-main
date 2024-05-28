@@ -1,0 +1,408 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: #faf7f5;
+}
+header{
+    background-color: white;
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    box-shadow: 1px 1px 10px black;
+    transition: all 0.5s linear;
+    z-index: 1;
+}
+header nav{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.main{
+    display: flex;
+    height: 90px;
+    justify-content: flex-start;
+    width: 33%;
+}
+li{
+    list-style-type: none;
+    margin-top: 35px;
+    width: 60px;
+}
+#sidebar{
+    display: none;
+}
+.fa-bars{
+    display: none;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+}
+li a:hover{
+    color: #e1a97f;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    width: 33%;
+}
+.logoname{
+    width: 50%;
+    height: 100%;
+}
+.navright{
+    width: 33%;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 35px;
+}
+.fa-user,.fa-cart-shopping,.fa-info{
+    font-size: 1rem;
+    color: #db9662;
+    cursor: pointer;
+    width: 50px;
+}
+.login{
+    color:black;
+    margin-left: 12px;
+    font-size: 0.8rem;
+    cursor: pointer;
+}
+.fa-bars{
+    display: none;
+}
+.mainul{
+    display: none;
+}
+.coantactcont{
+    margin: 120px 0px;
+}
+.contact{
+    text-align: center;
+    font-size: 4.5rem;
+}
+.have{
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.9rem;
+    text-align: center;
+    padding-top: 50px;
+    font-style: italic;
+    font-weight: 500;
+}
+.formconaiter{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.formleft,.formright{
+    width: 100%;
+}
+.formright{
+    background-color: white;
+}
+.left{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.right{
+    margin-top: 50px;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+.conatacd{
+    font-size: 1.4rem;
+    padding: 10px 0px;
+    font-weight: lighter;
+}
+.phone,.email,.apart{
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+.follow{
+    font-size: 1.2rem;
+    padding: 10px 0px;
+}
+.followconat{
+    display: flex;
+    justify-content: flex-start;
+    max-width: 50%;
+    justify-content: space-between;
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.form{
+    height: auto;
+}
+.nameconatiner{
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.txt1,.txt2{
+    width: 45%;
+    margin: 0px 5px;
+    height: 50px;
+}
+.emailconatiner,.msgconainer,.submitconainer{
+    padding: 10px;
+}
+.email{
+    width: 100%;
+}
+.msg{
+    width: 100%;
+    height: 50px;
+    resize: both;
+}
+.submit{
+    background-color: transparent;
+    padding: 10px 30px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: all 0.5s linear;
+    font-weight: lighter;
+}
+.submit:hover{
+    background-color: black;
+    color: white;
+}
+.usefulconaiter{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.usefulname{
+    margin-top: 50px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+.usefulbox1{
+    width: 33%;
+    background-color: white;
+    cursor: pointer;
+}
+.usefulbox1:hover{
+    border: 1px solid gray;
+}
+.usefulinner{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.handshakeconat{
+    display: flex;
+    justify-content: center;
+}
+.fa-handshake,.fa-question,.fa-location-dot{
+    font-size: 2rem;
+}
+.part{
+    text-align: center;
+    font-size: 2.2rem;
+    padding: 10px 0px;
+}
+.interest{
+    text-align: center;
+    font-size: 1.2rem;
+    color: lightgray;
+    padding: 10px 0px;
+}
+.buttonconatiner{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.apply{
+    background-color: transparent;
+    padding: 10px 20px;
+    border: 1px solid lightgray;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: all 0.5s linear;
+    font-weight: lighter;
+}
+.apply:hover{
+    background-color: black;
+    color: white;
+}
+.footercon{
+    padding-top: 120px;
+    background-color: #faf7f5;
+}
+.footermain{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.logocon{
+    display: flex;
+    justify-content: center;
+}
+.logof{
+    height: 90px;
+}
+.ulconaiter{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+.ftxt{
+    color: black;
+    text-decoration: none;
+    font-weight: lighter;
+}
+.socialf{
+    margin-top: 50px;
+    max-width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.fa-facebook,.fa-instagram,.fa-twitter,.fa-youtube{
+    font-size: 1.5rem;
+    opacity: 0.5;
+}
+.copy{
+    text-align: center;
+    margin-top: 50px;
+    font-size: 1.1rem;
+}
+@media screen and  (max-width:768px){
+header{
+    position: static;
+}
+.mainul{
+    display: flex;
+    width: 100%;
+}
+.logo{
+    width: 33%;
+}
+.logoname{
+    width: 100%;
+    height: 100%;
+}
+.fa-bars{
+    display: block;
+    width: 33%;
+    margin-top: 20px;
+    font-size: 1.4rem;
+    color: #dd9d6c;
+    transition: all 2s linear;
+}
+.navright{
+    width: 33%;    
+}
+.main,.navright{
+    display: none;
+}
+#sidebar{
+    display: flex;
+    flex-direction: column;
+    display: none;
+    width: 100%;
+    height: 300px;
+    background-color: #db9662;
+    border: 1px solid black;
+    position: absolute;
+    animation: name 0.5s ease forwards;
+}
+@keyframes name {
+    from{
+        transform: translatex(-100%);
+    }
+}
+li{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+li a{
+    text-decoration: none;
+    color: black;
+    font-size: 1rem;
+    padding: 8px 0px;
+}
+.conatacd{
+    font-size: 1.2rem;
+}
+.contact{
+    font-size: 1.7rem;
+}
+.have{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+.formconaiter{
+    display: flex;
+    flex-direction: column;
+}
+.formleft{
+    text-align: center;
+}
+.followconat{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-around;
+    margin: 50px 0px;
+}
+.fa-facebook, .fa-instagram, .fa-twitter, .fa-youtube{
+    font-size: 1.5rem;
+}
+.msg{
+    height: 40px;
+}
+.usefulconaiter{
+    display: flex;
+    flex-direction: column;
+}
+.usefulbox1{
+    width: 100%;
+    margin-bottom: 12px;
+}
+.logof{
+    height: 70px;
+}
+.ulconaiter{
+    display: flex;
+    flex-direction: column;
+}
+.ftxt{
+    text-align: center;
+    padding: 10px 0px;
+}
+.socialf{
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}   
+}
